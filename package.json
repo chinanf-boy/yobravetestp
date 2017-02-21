@@ -3,12 +3,8 @@
   "main": "./lib/yobravetestp",
   "version": "0.0.0",
   "description": "A short description of your package",
-  "keywords": [
-  ],
-  "activationCommands": {
-    "atom-workspace": "yobravetestp:toggle"
-  },
-  "repository": "https://github.com/atom/yobravetestp",
+  "activationHooks": ["language-javascript:grammar-used", "language-coffee-script:grammar-used"],
+  "repository": "https://github.com/chinanf-boy/yobravetestp",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
