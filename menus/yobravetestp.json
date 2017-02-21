@@ -1,0 +1,33 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle yobravetestp",
+        "command": "yobravetestp:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "yobravetestp",
+          "submenu": [
+            {
+
+              "label": "Toggle",
+              "command": "yobravetestp:toggle"
+              },
+              {"type": "separator"},
+              {
+              "label": "Togdddgle",
+              "command": "yobravetestp:toggle"
+              
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
